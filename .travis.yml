@@ -1,17 +1,15 @@
-sudo: false
 language: node_js
 node_js: stable
 
 # S: Build Lifecycle
 install:
   - npm install
-  - npm i -g yuque-hexo
 
 #before_script:
  # - npm install -g gulp
 
 script:
-  - npm run ci
+  - yuque-hexo sync
   - hexo g
 
 after_script:
