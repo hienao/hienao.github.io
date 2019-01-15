@@ -7,7 +7,7 @@
   },
   "yuqueConfig": {
     "baseUrl":"https://www.yuque.com/api/v2",
-    "login":"Hienao",
+    "login":"hienao",
     "repo":"blog", 
     "mdNameFormat":"title",
     "postPath":"source/_posts/yuque"
