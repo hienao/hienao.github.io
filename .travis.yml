@@ -24,7 +24,7 @@ after_script:
 
 branches:
   only:
-    - master
+    - source_code
 env:
  global:
    - GH_REF: github.com/hienao/hienao.github.io.git --{仓库地址}
