@@ -9,6 +9,7 @@ install:
  # - npm install -g gulp
 
 script:
+  - yuque-hexo sync
   - hexo g
 
 after_script:
