@@ -4,6 +4,7 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
+  - npm i -g yuque-hexo
 
 #before_script:
  # - npm install -g gulp
