@@ -214,7 +214,7 @@ avatar:
   # You can also use other linking images.
   url: https://raw.githubusercontent.com/hienao/hienao.github.io/blog_img/img/20190116234812.jpg
   # If true, the avatar would be dispalyed in circle.
-  rounded: false
+  rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
