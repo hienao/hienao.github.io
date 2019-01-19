@@ -26,7 +26,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: README.md
+skip_render: source/README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-    
+
 search:
   path: search.xml
   field: post
