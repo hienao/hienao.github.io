@@ -190,9 +190,8 @@ social:
 
 social_icons:
   enable: true
-  icons_only: true
+  icons_only: false
   transition: false
-  GitHub: github
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
