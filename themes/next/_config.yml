@@ -601,7 +601,7 @@ needmoreshare2:
   postbottom:
     enable: true
     options:
-      iconStyle: default
+      iconStyle: box
       boxForm: horizontal
       position: bottomCenter
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
