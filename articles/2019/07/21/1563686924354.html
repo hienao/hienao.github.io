@@ -1,0 +1,297 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>作为移动端开发怎么入门后端开发 | Hienao的小站</title><meta name="keywords" content="感想"><meta name="author" content="Hienao"><meta name="copyright" content="Hienao"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="大多数公司的现状1.场景A（格式） 移动端：老哥，要开发了，需要把接口给我。 后端：这个之前有给PC的接口，你直接调dubbo吧，你用那个字段就取哪个字段好了 移动端：？？？这么多字段哪个是我要的，为什么成功的时候这个字段返回的是个json对象、失败的时候返回了个字符串。 2.场景B （效率） 移动端：各位大佬，app这边这次项目中有个功能，需要用到订单、商品和物流的信息，这个接口我应该找谁要？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="作为移动端开发怎么入门后端开发">
+<meta property="og:url" content="http://example.com/articles/2019/07/21/1563686924354.html">
+<meta property="og:site_name" content="Hienao的小站">
+<meta property="og:description" content="大多数公司的现状1.场景A（格式） 移动端：老哥，要开发了，需要把接口给我。 后端：这个之前有给PC的接口，你直接调dubbo吧，你用那个字段就取哪个字段好了 移动端：？？？这么多字段哪个是我要的，为什么成功的时候这个字段返回的是个json对象、失败的时候返回了个字符串。 2.场景B （效率） 移动端：各位大佬，app这边这次项目中有个功能，需要用到订单、商品和物流的信息，这个接口我应该找谁要？">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2019-07-21T13:28:44.000Z">
+<meta property="article:modified_time" content="2019-10-31T01:13:23.000Z">
+<meta property="article:author" content="Hienao">
+<meta property="article:tag" content="感想">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/articles/2019/07/21/1563686924354"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?195dee0b372c047c386de00aefc31252";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2019-10-31 01:13:23'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://avatars.githubusercontent.com/u/8468091?v=4" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fas fa-podcast"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hienao的小站</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fas fa-podcast"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">作为移动端开发怎么入门后端开发</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2019-07-21T13:28:44.000Z" title="发表于 2019-07-21 13:28:44">2019-07-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2019-10-31T01:13:23.000Z" title="更新于 2019-10-31 01:13:23">2019-10-31</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%84%9F%E6%82%9F/">感悟</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>7分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/articles/2019/07/21/1563686924354.html#post-comment"><span class="gitalk-comment-count"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="大多数公司的现状"><a href="#大多数公司的现状" class="headerlink" title="大多数公司的现状"></a>大多数公司的现状</h2><p>1.场景A（格式）</p>
+<p>移动端：老哥，要开发了，需要把接口给我。</p>
+<p>后端：这个之前有给PC的接口，你直接调dubbo吧，你用那个字段就取哪个字段好了</p>
+<p>移动端：？？？这么多字段哪个是我要的，为什么成功的时候这个字段返回的是个json对象、失败的时候返回了个字符串。</p>
+<p>2.场景B （效率）</p>
+<p>移动端：各位大佬，app这边这次项目中有个功能，需要用到订单、商品和物流的信息，这个接口我应该找谁要？</p>
+<p>订单大佬：我这边只能给你订单的，其他的业务不该我去处理</p>
+<p>商品大佬：我也是跟订单一样的。</p>
+<p>移动端：这接口没人接了。。。</p>
+<p>产品：。。。我去跟各个TL确认下，这接口归属哪边来开发</p>
+<ol start="3">
+<li>场景C （在线问题解决） 客满同学：线上app报错了，弹出了个错误提示 若干分钟后。。。 移动端：经过排查是xxx接口返回了错误信息，所以弹出了对应提示，功能不可用，接口责任人在订单同学那边，需要订单同学查下。 若干分钟后。。。 订单同学： 这个接口是个聚合接口，不只有订单的信息，看了下是调用xxx接口报错了，需要sss同学帮忙看下。 若干分钟后。。。 sss同学：排查完毕，是今天发布导致的，已经回滚了，目前线上问题已修复 此时已经过去了好几个若干分钟。</li>
+</ol>
+<h2 id="为什么移动端要对后端开发有所了解"><a href="#为什么移动端要对后端开发有所了解" class="headerlink" title="为什么移动端要对后端开发有所了解"></a>为什么移动端要对后端开发有所了解</h2><ol>
+<li>作为移动端开发的小伙伴们平时要对接的开发侧的小伙伴，大多数时间段内都是后端开发的同学，了解后端开发的相关知识，可以有利于双方之间的沟通，大大减少双方沟通过程中“大眼瞪小眼”的尴尬场景，这也就是上面所说的场景A</li>
+<li>虽然现在android官方推荐使用kotlin语言作为android的开发语言，但是绝大多数android的开发者都是使用java开发android入的坑，学习后端开发的时候开发语言上不需要重新学习一遍</li>
+<li>app端作为直接面向用户的端，接口里的内容往往不是仅仅由一个提供方提供的，例如订单列表的借口中既会有订单相关的信息，也会有购买方的用户信息，还会有所购买的商品的信息，而在实际场景中，用户、订单、商品往往是由不同的部门负责的，这样的话给app端提供的接口的维护归属就有了分歧，任何一个改动都需要通知各方协调（场景B），当有线上问题出现时查询问题原因也需要大家共同去查，会浪费很多人力（场景C），如果各方只提供自己相关的数据，由app端自己去组合数据提供给app端，那么责任划分和查询问题就会轻松得多。</li>
+<li>移动端开发也会需要自己的一些基础设施，如自动化构建的维护、跨平台内容的下发、热修复的管理这些都需要有自己的平台去完成，而开发这些平台最适合的莫过于我们这些移动开发人员，因为我们是使用方，更了解这些平台需要替我们完成什么样的功能</li>
+</ol>
+<h2 id="选择一个合适的框架"><a href="#选择一个合适的框架" class="headerlink" title="选择一个合适的框架"></a>选择一个合适的框架</h2><p>对于java后端的开发而言，不论是各种书籍还是网上的博客，基本都是在SSH和SSM两种组合开发框架中做选择。</p>
+<blockquote>
+<ul>
+<li>SSH：Struts2 做控制器(controller) + Spring 管理组件 + Hibernate 负责数据库。</li>
+<li>SSM: SpringMVC 做控制器(controller) + Spring 管理组件 + MyBatis 负责数据库。</li>
+</ul>
+</blockquote>
+<p>SSH是比较早的项目使用的框架，在各类书籍里经常会见到，目前大多数公司使用的是SSM，如果之前对后端开发不太了解的同学，建议选择SSM好了，毕竟用的人多，遇到问题也容易找到解决方案。如果你对Spring繁琐的配置过程感到很头疼的话，建议使用SpringBoot来进行开发，因为它集齐了各类常用的开发框架，同时降低了 Spring 开发的门槛，更是简化了各种配置过程。</p>
+<h2 id="后端开发用到了哪些知识"><a href="#后端开发用到了哪些知识" class="headerlink" title="后端开发用到了哪些知识"></a>后端开发用到了哪些知识</h2><p>相信每个最初接触后端开发的小伙伴都会跟我一样对后端复杂技术生态一脸懵逼，因为一上来就会接触到很多陌生的词汇，像spring 的ioc和aop、负责数据库操作的mybatis、缓存方面的redis等，甚至连该怎么创建都不清楚。这些。。。。。都是正常的，毕竟没什么人样样精通。对于后端项目开发的学习，以我自身的经历来讲可以这样进行：</p>
+<ol>
+<li>首先是搭建后端项目的框架，当然每个公司都会有自己的模板工程，部署完之后就可以跑起来，如果没有模版工程的小伙伴可以到<a target="_blank" rel="noopener" href="https://start.spring.io/">https://start.spring.io/</a> 或者使用idea自动创建一个工程，</li>
+</ol>
+<p><img src="https://img.hacpai.com/file/2019/10/1559913011870-ac2b3a0b.png" alt="1559913011870.png"></p>
+<p>start.spring.io自动生成工程只需要在这个页面上选择对应的条件就好了，之后把生成的工程导入idea就可以开发了</p>
+<ol start="2">
+<li>工程可以跑起来之后就可以写提供给客户端的接口了，在这部分你需要学习创建controller、service、log日志的输出以及maven的依赖管理，学习这些看官方文档应该是最快的方案，<a target="_blank" rel="noopener" href="https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/">https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/</a> 官方文档写的很详细，所以没必要单独为spring买一本书去学习，因为书肯定不如官网的文档更新的快，如果觉得英文不太方便的话，国内也是有中文翻译的文档版本的，可以参照<a target="_blank" rel="noopener" href="https://love2.io/@funkkiid/doc/Spring-Boot-Reference-Guide/README.md">https://love2.io/@funkkiid/doc/Spring-Boot-Reference-Guide/README.md</a> 来学习。</li>
+<li>相信经过上面的两部份你已经知道如何给客户端提供接口了，但是光是这些是不够的，因为给客户端需要的数据往往来自各个服务提供方，例如上面举的订单的例子。这里就需要我们从其他后端应用的服务获取数据，目前国内大多数公司使用阿里开源的dubbo框架来对外提供服务，所以在这里我们还需要学习dubbo的使用，由于dubbo框架是中国公司开源的，所以 [文档]  <a target="_blank" rel="noopener" href="https://dubbo.apache.org/zh-cn/">https://dubbo.apache.org/zh-cn/</a>  有中文版，学习起来会比较方便</li>
+<li>如果单纯是调用别人的服务来整合数据的话，上面三部分学习知识已经可以满足你的要求了。如果有涉及到app独立的数据需要持久化存储的话，还需要学习Mysql相关的知识以及Mybatis的使用。</li>
+<li>随着后端工程业务逐渐复杂，你可能还需要学习更多的内容来完成自己的需求，：<ul>
+<li>缓存方面：redis</li>
+<li>权限方面：shiro、spring security</li>
+<li>代理服务：Nginx</li>
+<li>消息：ActiveMQ</li>
+<li>数据库连接池：druid</li>
+<li>定时任务：Quartz</li>
+<li>爬虫：WebMagic   其实这些都是可选的，用到的时候再去学习就ok了</li>
+</ul>
+</li>
+</ol>
+<h2 id="有赞移动后端基础设施的工作"><a href="#有赞移动后端基础设施的工作" class="headerlink" title="有赞移动后端基础设施的工作"></a>有赞移动后端基础设施的工作</h2><p>对于有赞移动端的基础设施的工作我们主要做了以下的内容：</p>
+<ol>
+<li>App网关，虽然项目名称是网关，但是跟后端通常所指的网关不相同，这是一个专门给App这边提供接口的应用，开始所说的三种场景的问题，这里都能够很好的解决，因为后端同学大多说是不了解app开发的，更多的小伙伴给App提供接口的时候会按照给前端网页提供接口的方法给接口，这种场景下app这边调用起来就会比较麻烦，在App网关中App端的小伙伴自己给app端提供接口，由App端自行维护这个应用，这样的话中台的小伙伴只需要提供自己那部分基础服务就好了，完全不需要考虑提供出去接口的格式和接口归属的划分，同时出现线上问题App端的小伙伴也可以直接定位到是哪个服务出现了问题，可以减少线上故障的时间</li>
+<li>MBD，由于业务线比较多</li>
+<li>Weex构建平台</li>
+<li>配置中心</li>
+<li>移动基础保障平台</li>
+</ol>
+<h2 id="感触-amp-区别"><a href="#感触-amp-区别" class="headerlink" title="感触&amp;区别"></a>感触&amp;区别</h2><ol>
+<li>客户端的开发更加注重的是用户的体验，是用户操作时的具体感受，面向的是单个用户，而服务端开发更注重的是功能和数据，是线上功能的可用性及数据的准确性。</li>
+<li>虽然客户端和后端都会考虑应用的性能，但是两者侧重点不同，客户端更看重用户使用的感知，如动画效果及滑动流畅性，而后端更看重的是运行效率和并发能力。</li>
+<li>客户端在开发的过程中并发的场景比较少，切换线程一类的操作比较多，而服务端刚好相反，服务端场景下用户并发的场景会很多，线程切换类的操作倒是不如客户端那么频繁了，这与系统的限制及面对的场景相关，客户端只面对一个用户和服务端，而服务端需要面对多个用户。</li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Hienao</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/articles/2019/07/21/1563686924354.html">http://example.com/articles/2019/07/21/1563686924354.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Hienao的小站</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%84%9F%E6%83%B3/">感想</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/articles/2019/12/05/1575524671317.html"><img class="prev-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码</div></div></a></div><div class="next-post pull-right"><a href="/articles/2019/07/21/1563686685303.html"><img class="next-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">debain docker 安装jenkins</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://avatars.githubusercontent.com/u/8468091?v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Hienao</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/hienao"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/hienao" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:shiwentao666@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">我们一路奋战，不是为了改变世界，而是不让世界改变我们。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%A7%E5%A4%9A%E6%95%B0%E5%85%AC%E5%8F%B8%E7%9A%84%E7%8E%B0%E7%8A%B6"><span class="toc-number">1.</span> <span class="toc-text">大多数公司的现状</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%A6%81%E5%AF%B9%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E6%9C%89%E6%89%80%E4%BA%86%E8%A7%A3"><span class="toc-number">2.</span> <span class="toc-text">为什么移动端要对后端开发有所了解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%90%88%E9%80%82%E7%9A%84%E6%A1%86%E6%9E%B6"><span class="toc-number">3.</span> <span class="toc-text">选择一个合适的框架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E7%94%A8%E5%88%B0%E4%BA%86%E5%93%AA%E4%BA%9B%E7%9F%A5%E8%AF%86"><span class="toc-number">4.</span> <span class="toc-text">后端开发用到了哪些知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E8%B5%9E%E7%A7%BB%E5%8A%A8%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E7%9A%84%E5%B7%A5%E4%BD%9C"><span class="toc-number">5.</span> <span class="toc-text">有赞移动后端基础设施的工作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%84%9F%E8%A7%A6-amp-%E5%8C%BA%E5%88%AB"><span class="toc-number">6.</span> <span class="toc-text">感触&amp;区别</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/articles/2019/12/09/1575870519853.html" title="Gradle 下载缓慢解决方案"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Gradle 下载缓慢解决方案"/></a><div class="content"><a class="title" href="/articles/2019/12/09/1575870519853.html" title="Gradle 下载缓慢解决方案">Gradle 下载缓慢解决方案</a><time datetime="2019-12-09T13:48:39.000Z" title="发表于 2019-12-09 13:48:39">2019-12-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/articles/2019/12/05/1575524671317.html" title="使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码"/></a><div class="content"><a class="title" href="/articles/2019/12/05/1575524671317.html" title="使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码">使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码</a><time datetime="2019-12-05T13:44:31.000Z" title="发表于 2019-12-05 13:44:31">2019-12-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/articles/2019/07/21/1563686924354.html" title="作为移动端开发怎么入门后端开发"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="作为移动端开发怎么入门后端开发"/></a><div class="content"><a class="title" href="/articles/2019/07/21/1563686924354.html" title="作为移动端开发怎么入门后端开发">作为移动端开发怎么入门后端开发</a><time datetime="2019-07-21T13:28:44.000Z" title="发表于 2019-07-21 13:28:44">2019-07-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/articles/2019/07/21/1563686685303.html" title="debain docker 安装jenkins"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="debain docker 安装jenkins"/></a><div class="content"><a class="title" href="/articles/2019/07/21/1563686685303.html" title="debain docker 安装jenkins">debain docker 安装jenkins</a><time datetime="2019-07-21T13:24:45.000Z" title="发表于 2019-07-21 13:24:45">2019-07-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/articles/2019/07/21/1563685500863.html" title="sql在分页查询的时候，出现数据重复"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="sql在分页查询的时候，出现数据重复"/></a><div class="content"><a class="title" href="/articles/2019/07/21/1563685500863.html" title="sql在分页查询的时候，出现数据重复">sql在分页查询的时候，出现数据重复</a><time datetime="2018-11-09T12:01:09.000Z" title="发表于 2018-11-09 12:01:09">2018-11-09</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Hienao</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      false && mermaid.init()
+    })
+  }
+}</script><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk({
+      clientID: 'd8fa89600f951013bea4',
+      clientSecret: '6e0c655b6e7c914c7ccd4b5b9b5d91a7a10f3b3c',
+      repo: 'hienao.github.io',
+      owner: 'hienao',
+      admin: ['hienao'],
+      id: '5e03a4b0972c499dbc9d2ec3acb1145c',
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Gitalk' === 'Gitalk' || !false) {
+  if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
