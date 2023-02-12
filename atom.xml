@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云端漫步</title>
+  <icon>http://code520.top/icon.png</icon>
+  <subtitle> </subtitle>
+  <link href="http://code520.top/atom.xml" rel="self"/>
+  
+  <link href="http://code520.top/"/>
+  <updated>2023-02-12T11:47:04.327Z</updated>
+  <id>http://code520.top/</id>
+  
+  <author>
+    <name>Hienao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://code520.top/2022/09/04/test/"/>
+    <id>http://code520.top/2022/09/04/test/</id>
+    <published>2022-09-04T06:09:48.000Z</published>
+    <updated>2023-02-12T11:47:04.327Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;测试新版本&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Gradle 下载缓慢解决方案</title>
+    <link href="http://code520.top/articles/2019/12/09/1575870519853.html"/>
+    <id>http://code520.top/articles/2019/12/09/1575870519853.html</id>
+    <published>2019-12-09T05:48:39.000Z</published>
+    <updated>2019-12-09T05:48:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;gradle-下载中央仓库依赖缓慢&quot;&gt;&lt;a href=&quot;#gradle-下载中央仓库依赖缓慢&quot; class=&quot;headerlink&quot; title=&quot;gradle 下载中央仓库依赖缓慢&quot;&gt;&lt;/a&gt;gradle 下载中央仓库依赖缓慢&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="Gradle" scheme="http://code520.top/categories/Gradle/"/>
+    
+    
+    <category term="gralde" scheme="http://code520.top/tags/gralde/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码</title>
+    <link href="http://code520.top/articles/2019/12/05/1575524671317.html"/>
+    <id>http://code520.top/articles/2019/12/05/1575524671317.html</id>
+    <published>2019-12-05T05:44:31.000Z</published>
+    <updated>2019-12-09T05:42:42.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;使用MacOS-10-14-6-Android-3-5-2-阅读Android-O源码&quot;&gt;&lt;a href=&quot;#使用MacOS-10-14-6-Android-3-5-2-阅读Android-O源码&quot; class=&quot;headerlink&quot; title=&quot;使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码&quot;&gt;&lt;/a&gt;使用MacOS 10.14.6 Android  3.5.2 阅读Android O源码&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="待分类" scheme="http://code520.top/tags/%E5%BE%85%E5%88%86%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>作为移动端开发怎么入门后端开发</title>
+    <link href="http://code520.top/articles/2019/07/21/1563686924354.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563686924354.html</id>
+    <published>2019-07-21T05:28:44.000Z</published>
+    <updated>2019-10-30T17:13:23.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;大多数公司的现状&quot;&gt;&lt;a href=&quot;#大多数公司的现状&quot; class=&quot;headerlink&quot; title=&quot;大多数公司的现状&quot;&gt;&lt;/a&gt;大多数公司的现状&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="感悟" scheme="http://code520.top/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+    <category term="感想" scheme="http://code520.top/tags/%E6%84%9F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>debain docker 安装jenkins</title>
+    <link href="http://code520.top/articles/2019/07/21/1563686685303.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563686685303.html</id>
+    <published>2019-07-21T05:24:45.000Z</published>
+    <updated>2019-07-21T05:24:45.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;换成国内源&quot;&gt;&lt;a href=&quot;#换成国内源&quot; class=&quot;headerlink&quot; title=&quot;换成国内源&quot;&gt;&lt;/a&gt;换成国内源&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="Jekins" scheme="http://code520.top/categories/Jekins/"/>
+    
+    
+    <category term="Jenkins" scheme="http://code520.top/tags/Jenkins/"/>
+    
+    <category term="Docker" scheme="http://code520.top/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sql在分页查询的时候，出现数据重复</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685500863.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685500863.html</id>
+    <published>2018-11-09T04:01:09.000Z</published>
+    <updated>2018-11-09T04:01:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;场景：每页分为10条数据，发现第4页的一条信息在第3页也会显示。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原因：查看sql，发现order</summary>
+        
+      
+    
+    
+    
+    <category term="Sql" scheme="http://code520.top/categories/Sql/"/>
+    
+    
+    <category term="SQL" scheme="http://code520.top/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Android 7.0上PopupWindow.showAsDropDown位置偏移</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685841566.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685841566.html</id>
+    <published>2018-09-09T05:33:07.000Z</published>
+    <updated>2018-09-09T05:33:07.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;解决方案：&lt;br&gt;用&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 URL Scheme 或android intent唤起应用打开指定的 Activity</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685613681.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685613681.html</id>
+    <published>2018-08-24T06:17:09.000Z</published>
+    <updated>2018-08-24T06:17:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Android 开发过程中经常会有 H5 页面和 Native 的交互，常见的如在网页中打开淘宝app到商品界面，还有在组件化工程中模块间通过路由调用有时候也是使用这种方案。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring Boot Annotion processor not found in classpath 解决方案</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685380508.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685380508.html</id>
+    <published>2018-07-30T10:53:00.000Z</published>
+    <updated>2018-07-30T10:53:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;从yml文件中读取配置时，在使用@configurationProperties注解时 idea弹出 Spring Boot Annotion processor not found in classpath&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="SpringBoot" scheme="http://code520.top/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://code520.top/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitignore规则不生效的解决办法</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685075320.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685075320.html</id>
+    <published>2018-07-24T06:13:00.000Z</published>
+    <updated>2018-07-24T06:13:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="http://code520.top/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="http://code520.top/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>android studio 不同module资源重名引起引用混乱的解决方法</title>
+    <link href="http://code520.top/articles/2019/07/21/1563642782144.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563642782144.html</id>
+    <published>2018-07-14T02:59:09.000Z</published>
+    <updated>2018-07-14T02:59:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;解决方案：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;通过gradle配置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&quot;line-numbers language-groovy&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装zsh后 vim ~/.bash_profile无效的问题</title>
+    <link href="http://code520.top/articles/2019/07/21/1563686080206.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563686080206.html</id>
+    <published>2018-07-14T02:33:00.000Z</published>
+    <updated>2018-07-14T02:33:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;装了 zsh 之后，修改终端配置就变成了：&lt;code&gt;vim ~/.zshrc&lt;/code&gt;，而不是：&lt;code&gt;vim ~/.bash_profile&lt;/code&gt;，所以以后看到别人的文章中需要：&lt;code&gt;vim</summary>
+        
+      
+    
+    
+    
+    <category term="Mac" scheme="http://code520.top/categories/Mac/"/>
+    
+    
+    <category term="Mac" scheme="http://code520.top/tags/Mac/"/>
+    
+    <category term="环境配置" scheme="http://code520.top/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> Android项目开发中遇到的问题记录</title>
+    <link href="http://code520.top/articles/2019/07/21/1563643014546.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563643014546.html</id>
+    <published>2018-07-10T02:51:09.000Z</published>
+    <updated>2018-07-10T02:51:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;Android 6.0 解决recyclerview 在 scrollview 中不能全部显示，高度不正常的问题。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;问题描述：在Android 6.0上如果recyclerview被scrollerview包裹且设置高度为wrap_content，在recyclerviewitem足够多的情况下会只显示一部分item。&lt;/li&gt;&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>获取Android自带资源的方式</title>
+    <link href="http://code520.top/articles/2019/07/21/1563686419890.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563686419890.html</id>
+    <published>2018-07-07T05:24:09.000Z</published>
+    <updated>2018-07-07T05:24:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;资源位置在源代码base/core/res/文件夹中&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>弹弹play安卓版更新日志</title>
+    <link href="http://code520.top/articles/2019/07/21/1563686205251.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563686205251.html</id>
+    <published>2018-07-07T05:23:00.000Z</published>
+    <updated>2018-07-07T05:23:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;弹弹play安卓版更新日志&quot;&gt;&lt;a href=&quot;#弹弹play安卓版更新日志&quot; class=&quot;headerlink&quot; title=&quot;弹弹play安卓版更新日志&quot;&gt;&lt;/a&gt;弹弹play安卓版更新日志&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="弹弹Play" scheme="http://code520.top/categories/%E5%BC%B9%E5%BC%B9Play/"/>
+    
+    
+    <category term="DanDanPlay" scheme="http://code520.top/tags/DanDanPlay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 9.0 sdk导致的gradle依赖问题解决</title>
+    <link href="http://code520.top/articles/2019/07/21/1563640603661.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563640603661.html</id>
+    <published>2018-07-07T05:22:09.000Z</published>
+    <updated>2019-07-20T16:40:34.000Z</updated>
+    
+    
+    <summary type="html">&lt;h5 id=&quot;Bug表现&quot;&gt;&lt;a href=&quot;#Bug表现&quot; class=&quot;headerlink&quot; title=&quot;Bug表现&quot;&gt;&lt;/a&gt;Bug表现&lt;/h5&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>升级老的Android项目gradle版本后，出现错误提示</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685717070.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685717070.html</id>
+    <published>2018-07-07T05:22:09.000Z</published>
+    <updated>2018-07-07T05:22:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="AndroidStudio" scheme="http://code520.top/categories/AndroidStudio/"/>
+    
+    <category term="Gradle" scheme="http://code520.top/categories/AndroidStudio/Gradle/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+    <category term="AndroidStudio" scheme="http://code520.top/tags/AndroidStudio/"/>
+    
+    <category term="Gradle" scheme="http://code520.top/tags/Gradle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>枚举根据状态获取不同属性及在Android开发中优先使用注解，慎用枚举</title>
+    <link href="http://code520.top/articles/2019/07/21/1563686304195.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563686304195.html</id>
+    <published>2018-07-07T05:22:09.000Z</published>
+    <updated>2018-07-07T05:22:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://code520.top/categories/Java/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+    <category term="Java" scheme="http://code520.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Ubuntu上编译ijkplayer</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685985973.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685985973.html</id>
+    <published>2018-07-07T05:01:09.000Z</published>
+    <updated>2018-07-07T05:01:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;为什么要编译ijkplayer&quot;&gt;&lt;a href=&quot;#为什么要编译ijkplayer&quot; class=&quot;headerlink&quot; title=&quot;为什么要编译ijkplayer?&quot;&gt;&lt;/a&gt;为什么要编译ijkplayer?&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    <category term="IjkPlayer" scheme="http://code520.top/categories/Android/IjkPlayer/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+    <category term="IjkPlayer" scheme="http://code520.top/tags/IjkPlayer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jenkins Android 开发持续集成配置</title>
+    <link href="http://code520.top/articles/2019/07/21/1563685214519.html"/>
+    <id>http://code520.top/articles/2019/07/21/1563685214519.html</id>
+    <published>2018-02-28T05:11:09.000Z</published>
+    <updated>2018-02-28T05:11:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Jenkins Android编译环境配置 ：略&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="http://code520.top/categories/Android/"/>
+    
+    <category term="Jekins" scheme="http://code520.top/categories/Android/Jekins/"/>
+    
+    
+    <category term="Android" scheme="http://code520.top/tags/Android/"/>
+    
+    <category term="Jenkins" scheme="http://code520.top/tags/Jenkins/"/>
+    
+  </entry>
+  
+</feed>
